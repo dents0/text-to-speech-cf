@@ -17,7 +17,7 @@ an **mp3** file with the same name will be generated.
 
 Prerequisites
 ---
-* [Google Cloud Platform](https://console.cloud.google.com/) project
+* [Google Cloud Platform](https://console.cloud.google.com/) project with [billing](https://cloud.google.com/billing/docs/how-to/modify-project) enabled.
 * Enabled [Cloud Functions API](https://console.cloud.google.com/apis/library/cloudfunctions.googleapis.com)
 * Enabled [Cloud Text-to-Speech API](https://console.cloud.google.com/apis/library/texttospeech.googleapis.com)
 
