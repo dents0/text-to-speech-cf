@@ -4,7 +4,7 @@ Text-to-Speech Cloud Function
 
 **Author:** Deniss Tsokarev
 
-**Licence:** *see [LICENCE.TXT](https://github.com/dents0/text-to-speech-cf/#)*
+**Licence:** *see [LICENCE.TXT](https://github.com/dents0/text-to-speech-cf/blob/master/LICENCE.txt)*
 
 
 Description
