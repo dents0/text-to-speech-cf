@@ -11,6 +11,7 @@ def text_to_speech(event, context):
     """
 
 
+    # Check if the uploaded file has '.txt' format
     if event['name'][-4:] != ".txt":
         print("Wrong file provided: provided file must have '.txt' extension")
         return ""
@@ -40,7 +41,7 @@ def text_to_speech(event, context):
     
     # Select the type of audio file you want returned
     audio_config = texttospeech.types.AudioConfig(
-        audio_encoding=texttospeech.enums.AudioEncoding.MP3, speaking_rate=1.2)
+        audio_encoding=texttospeech.enums.AudioEncoding.MP3, speaking_rate=1.2, pitch=-2.0)
 
     
     # Perform the text-to-speech request on the text input with the selected
@@ -56,4 +57,3 @@ def text_to_speech(event, context):
         blob = bucket.blob(audio_file)
         blob.upload_from_filename("/tmp/output.mp3")
         
-
