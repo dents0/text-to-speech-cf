@@ -1,14 +1,5 @@
 Text-to-Speech Cloud Function
 ===
-
-
-**Author:** Deniss Tsokarev
-
-**License:** *see [LICENSE.txt](https://github.com/dents0/text-to-speech-cf/blob/master/LICENSE.txt)*
-
-
-Description
----
 A Cloud Function triggered by the Cloud Storage *"finalize/create"* event.
 
 When a **txt** file is uploaded or updated in a specified bucket, 
